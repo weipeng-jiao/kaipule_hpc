@@ -1,0 +1,1 @@
+/usr/bin/c++ -O0 -mavx2 -std=c++17  -g CMakeFiles/main.dir/src/main02.cpp.o -o main 

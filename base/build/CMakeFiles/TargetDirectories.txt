@@ -1,0 +1,3 @@
+/home/jiao/repo/learn/hpc/avx/base/build/CMakeFiles/main.dir
+/home/jiao/repo/learn/hpc/avx/base/build/CMakeFiles/edit_cache.dir
+/home/jiao/repo/learn/hpc/avx/base/build/CMakeFiles/rebuild_cache.dir
