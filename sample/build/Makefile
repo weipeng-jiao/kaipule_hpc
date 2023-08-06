@@ -57,10 +57,10 @@ RM = /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiao/repo/learn/hpc/avx/base
+CMAKE_SOURCE_DIR = /home/jiao/repo/learn/hpc/avx/sample
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jiao/repo/learn/hpc/avx/base/build
+CMAKE_BINARY_DIR = /home/jiao/repo/learn/hpc/avx/sample/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiao/repo/learn/hpc/avx/base/build/CMakeFiles /home/jiao/repo/learn/hpc/avx/base/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiao/repo/learn/hpc/avx/sample/build/CMakeFiles /home/jiao/repo/learn/hpc/avx/sample/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiao/repo/learn/hpc/avx/base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiao/repo/learn/hpc/avx/sample/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/main05.o: src/main05.cpp.o
-.PHONY : src/main05.o
+src/main01.o: src/main01.cpp.o
+.PHONY : src/main01.o
 
 # target to build an object file
-src/main05.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main05.cpp.o
-.PHONY : src/main05.cpp.o
+src/main01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main01.cpp.o
+.PHONY : src/main01.cpp.o
 
-src/main05.i: src/main05.cpp.i
-.PHONY : src/main05.i
+src/main01.i: src/main01.cpp.i
+.PHONY : src/main01.i
 
 # target to preprocess a source file
-src/main05.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main05.cpp.i
-.PHONY : src/main05.cpp.i
+src/main01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main01.cpp.i
+.PHONY : src/main01.cpp.i
 
-src/main05.s: src/main05.cpp.s
-.PHONY : src/main05.s
+src/main01.s: src/main01.cpp.s
+.PHONY : src/main01.s
 
 # target to generate assembly for a file
-src/main05.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main05.cpp.s
-.PHONY : src/main05.cpp.s
+src/main01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main01.cpp.s
+.PHONY : src/main01.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... src/main05.o"
-	@echo "... src/main05.i"
-	@echo "... src/main05.s"
+	@echo "... src/main01.o"
+	@echo "... src/main01.i"
+	@echo "... src/main01.s"
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jiao/repo/learn/hpc/avx/base/src/main05.cpp" "CMakeFiles/main.dir/src/main05.cpp.o" "gcc" "CMakeFiles/main.dir/src/main05.cpp.o.d"
+  "/home/jiao/repo/learn/hpc/avx/sample/src/main01.cpp" "CMakeFiles/main.dir/src/main01.cpp.o" "gcc" "CMakeFiles/main.dir/src/main01.cpp.o.d"
   )
 
 # Targets to which this target links.
