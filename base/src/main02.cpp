@@ -1,4 +1,8 @@
 
+/* author: weipeng jiao
+ * date: 2023-08-16
+ * note: Get Platforms and Device Info 1
+*/
 #include "CL/cl.h"
 // IO stream
 #include <iostream>
